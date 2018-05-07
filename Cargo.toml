@@ -7,3 +7,4 @@ authors = ["Clint Byrum <clint@fewbar.com>"]
 bytes = "*"
 log = "*"
 env_logger = "*"
+number_prefix = "*"
