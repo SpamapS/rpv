@@ -1,0 +1,9 @@
+[package]
+name = "rpv"
+version = "0.1.0"
+authors = ["Clint Byrum <clint@fewbar.com>"]
+
+[dependencies]
+bytes = "*"
+log = "*"
+env_logger = "*"
