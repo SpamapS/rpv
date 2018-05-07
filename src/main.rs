@@ -23,9 +23,6 @@ use std::thread;
 use bytes::BytesMut;
 
 fn main() {
-    /// Read from stdin (or file)
-    /// write to stdout (or file)
-    /// ocassionally print how fast things are moving (and if we can, how much of input we've read)
     env_logger::init();
     debug!("spawning status thread");
     let moved = Arc::new(AtomicUsize::new(0));

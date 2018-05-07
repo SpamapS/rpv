@@ -13,7 +13,6 @@
 
 extern crate number_prefix;
 use self::number_prefix::{decimal_prefix,Standalone,Prefixed, Amounts};
-use std::sync::mpsc::Receiver;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicUsize, AtomicBool, Ordering};
 use std::time::{Duration, Instant};
